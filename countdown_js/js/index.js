@@ -9,21 +9,18 @@ function time(){
 
     const now = new Date();
 const end = new Date(endDate)
-console.log("pk")
 if(end-now>=0)
 {
 
 
 
     inputs[3].value = Math.floor(((end-now)/1000)%60);
-    inputs[2].value= Math.floor(((end-now)/1000)/60);
-   inputs[1].value = Math.floor((((end-now)/1000)/60)/60);
-   inputs[0].value= Math.floor(((((end-now)/1000)/60)/60)/24);
+    inputs[2].value= Math.floor((((end-now)/1000)/60)%60);
+   inputs[1].value = Math.floor(((((end-now)/1000)/60)/60)%24);
+   inputs[0].value= Math.floor((((((end-now)/1000)/60)/60)/24)%24);
 
 }
-else{
-    
-}
+
 }
 
 
