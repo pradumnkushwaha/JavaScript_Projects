@@ -1,0 +1,39 @@
+body{
+
+ padding: 0;
+    margin:0;
+    background-color: aquamarine;
+
+}
+.main{
+    padding: 0;
+    margin:0;
+    align-items: center;
+    background-color: aquamarine;
+   
+    
+}
+#input{
+    background-color: beige;
+}
+.box{
+    height: 50vh;
+    width: 50%;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+.checkbox{
+    padding: 10px;
+    margin: 5px;
+    align-items: end;
+}
+.check{
+    align-items: end;
+    margin-right: 10px;
+   
+}
+.check1{
+    height: 10px;
+    width: 30px;
+}
